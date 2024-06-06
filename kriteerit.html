@@ -1,111 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kriteerit</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+    </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand navbar-dark bg-dark container">
-        <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Etusivu</a></li>
-                <li class="nav-item">
-                    <a href="tutkinnon rakenne.html" class="nav-link">Tutkinnon rakenne</a></li>
-                <li class="nav-item">
-                    <a href="tutkinnonosat.html" class="nav-link">Tutkinnon osat</a></li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="kriteerit.html" class="nav-link">Kriteerit</a></li>
-                <li class="nav-item">
-                    <a href="arviointi.html" class="nav-link">Arviointi</a></li>
-            </ul>
+    <div style="background-image: url(https://cdn.pixabay.com/photo/2016/11/22/22/54/desktop-1851043_1280.jpg);
+    background-repeat: no-repeat; background-size: cover;">
+        <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark container mb-5 border border-dark shadow p-3 mb-5 bg-light rounded">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-3">
+                        <a href="index.html" class="nav-link">Etusivu</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="tutkinnonrakenne.html" class="nav-link">Tutkinnon rakenne</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="tutkinnonosat.html" class="nav-link">Tutkinnon osat</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="kriteerit.html">Kriteerit</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="arviointi.html" class="nav-link">Arviointi</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 class="display-4 mb-4">Arviointikriteerit</h2>
+            <table class="table border border-dark shadow bg-light rounded">
+                <thead>
+                    <tr class="table-secondary">
+                        <th scope="col" class="col-2">Arvosana</th>
+                        <th scope="col" class="col-10">Opiskelilja...</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-default">
+                        <th class="table-secondary" scope="row">Tyydyttävä 1</th>
+                        <td>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">toteuttaa työn ohjeiden mukaisesti</li>
+                                <li class="list-group-item">toimii yhteistyökykyisesti</li>
+                                <li class="list-group-item">tarvitsee joissakin tilanteissa lisäohjeita</li>
+                                <li class="list-group-item">hyödyntää työssä tarvittavaa perustietoa</li>
+                                <li class="list-group-item">muuttaa toimintaansa saamansa palautteen mukaisesti</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table-default">
+                        <th class="table-secondary" scope="row">Tyydyttävä 2</th>
+                        <td>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</li>
+                                <li class="list-group-item">toimii yhteistyökykyisesti ja vuorovaikutteisesti</li>
+                                <li class="list-group-item">tarvitsee vain harvoissa tilanteissa lisäohjeita</li>
+                                <li class="list-group-item">hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti
+                                </li>
+                                <li class="list-group-item">muuttaa toimintaansa saamansa palautteen ja omien
+                                    havaintojen mukaisesti</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table-default">
+                        <th class="table-secondary" scope="row">Hyvä 3</th>
+                        <td>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">toteuttaa työkokonaisuuden itsenäisesti</li>
+                                <li class="list-group-item">toimii yhteistyökykyisesti ja aloitteellisesti
+                                    vuorovaikutustilanteissa</li>
+                                <li class="list-group-item">selviytyy tavanomaisista ongelmanratkaisutilanteista</li>
+                                <li class="list-group-item">hyödyntää työssä tarvittavaa tietoa monipuolisesti</li>
+                                <li class="list-group-item">arvioi suoriutumistaan realistisesti</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table-default">
+                        <th class="table-secondary" scope="row">Hyvä 4</th>
+                        <td>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</li>
+                                <li class="list-group-item">toimii yhteistyökykyisesti ja rakentavasti
+                                    vuorovaikutustilanteissa</li>
+                                <li class="list-group-item">selviytyy ongelmanratkaisutilanteista hyödyntäen
+                                    monipuolisia ratkaisutapoja</li>
+                                <li class="list-group-item">soveltaa työssä tarvittavaa tietoa monipuolisesti ja
+                                    perustellusti</li>
+                                <li class="list-group-item">arvioi suoriutumistaan realistisesti sekä tunnistaa
+                                    vahvuuksiaan ja kehittämisen kohteitaan</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table-default">
+                        <th class="table-secondary" scope="row">Kiitettävä 5</th>
+                        <td>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti
+                                    ottaen huomioon muut toimijat</li>
+                                <li class="list-group-item">toimii yhteistyökykyisesti ja rakentavasti haastavissakin
+                                    vuorovaikutustilanteissa</li>
+                                <li class="list-group-item">arvioi suoriutumistaan realistisesti sekä tunnistaa
+                                    vahvuuksiaan ja kehittämisen kohteitaan</li>
+                                <li class="list-group-item">soveltaa työssä tarvittavaa tietoa
+                                    ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</li>
+                                <li class="list-group-item">arvioi suoriutumistaan realistisesti ja esittää perusteltuja
+                                    ratkaisuja osaamisensa kehittämiseen</li>
+                                <li class="list-group-item">ymmärtää oman työnsä merkityksen osana laajempaa
+                                    kokonaisuutta</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </nav>
-<div class="container">
-    <table class="table">
-        <h2 class="display-4"><strong>Arviointikriteerit</strong></h1>
-        <thead>
-            <tr class="table-secondary">
-                <th scope="col" class="col-2">Arvosana</th>
-                <th scope="col" class="col-10">Opiskelilja...</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="table-default">
-                <td class="table-secondary" scope="row"><strong>Tyydyttävä 1</strong></td>
-                <td>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">toteuttaa työn ohjeiden mukaisesti</li>
-                        <li class="list-group-item">toimii yhteistyökykyisesti</li>
-                        <li class="list-group-item">tarvitsee joissakin tilanteissa lisäohjeita</li>
-                        <li class="list-group-item">hyödyntää työssä tarvittavaa perustietoa</li>
-                        <li class="list-group-item">muuttaa toimintaansa saamansa palautteen mukaisesti</li>
-                    </ul>
-                </td>
-            </td>
-            </tr>
-            <tr class="table-default">
-                <td class="table-secondary" scope="row"><strong>Tyydyttävä 2</strong></td>
-                <td>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</li>
-                        <li class="list-group-item">toimii yhteistyökykyisesti ja vuorovaikutteisesti</li>
-                        <li class="list-group-item">tarvitsee vain harvoissa tilanteissa lisäohjeita</li>
-                        <li class="list-group-item">hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti</li>
-                        <li class="list-group-item">muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="table-default">
-                <td class="table-secondary" scope="row"><strong>Hyvä 3</strong></td>
-                <td>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">toteuttaa työkokonaisuuden itsenäisesti</li>
-                        <li class="list-group-item">toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa</li>
-                        <li class="list-group-item">selviytyy tavanomaisista ongelmanratkaisutilanteista</li>
-                        <li class="list-group-item">hyödyntää työssä tarvittavaa tietoa monipuolisesti</li>
-                        <li class="list-group-item">arvioi suoriutumistaan realistisesti</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="table-default">
-                <td class="table-secondary" scope="row"><strong>Hyvä 4</strong></td>
-                <td>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</li>
-                        <li class="list-group-item">toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa</li>
-                        <li class="list-group-item">selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja</li>
-                        <li class="list-group-item">soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti</li>
-                        <li class="list-group-item">arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr class="table-default">
-                <td class="table-secondary" scope="row"><strong>Kiitettävä 5</strong></td>
-                <td>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</li>
-                        <li class="list-group-item">toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa</li>
-                        <li class="list-group-item">arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</li>
-                        <li class="list-group-item">soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</li>
-                        <li class="list-group-item">arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen</li>
-                        <li class="list-group-item">ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta</li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>                                                           |
-</thead>
-<script src="js/bootstrap.bundle.min.js"></script>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
-	
-
-
-
-
-
-
