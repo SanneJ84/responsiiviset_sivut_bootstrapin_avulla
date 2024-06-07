@@ -8,60 +8,56 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
-<body>
-    <div style="background-image: url(https://cdn.pixabay.com/photo/2016/11/22/22/54/desktop-1851043_1280.jpg);
-    background-repeat: no-repeat; background-size:cover; height: 100vh;">
-        <nav
-            class="navbar navbar-expand-lg navbar-dark bg-dark container mb-5 border border-dark shadow p-3 mb-5 bg-light rounded">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-3">
-                        <a href="index.html" class="nav-link">Etusivu</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a href="tutkinnonrakenne.html" class="nav-link">Tutkinnon rakenne</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a href="tutkinnonosat.html" class="nav-link">Tutkinnon osat</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a href="kriteerit.html" class="nav-link">Kriteerit</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active" aria-current="page" href="arviointi.html">Arviointi</a>
-                    </li>
+<body class="container d-flex flex-column min-vh-100"
+style="background-color: rgba(187, 190, 187, 0.9); color: rgb(0, 0, 0); font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container mb-5 border border-dark shadow p-3 mb-5 bg-light rounded">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <a href="index.html" class="nav-link">Etusivu</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="tutkinnonrakenne.html" class="nav-link">Tutkinnon rakenne</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="tutkinnonosat.html" class="nav-link">Tutkinnon osat</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a href="kriteerit.html" class="nav-link">Kriteerit</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="arviointi.html">Arviointi</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+            <main class="container border border-dark shadow rounded text-center"
+                style="background-color: rgba(221, 226, 221, 0.9);">
+                <h2 class="display-4 mb-3">Osaamisen arviointi</h2>
+                <p class="fs-6">Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten
+                    ja arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan
+                    arvosana määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena
+                    parhaiten sijoittuu.</p>
+                <p class="fs-6">Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi
+                    valmentautuminen, yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan
+                    asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien
+                    mukaisesti. Arvosanat 2 ja 4 määräytyvät seuraavasti:</p>
+                <ul class="list-unstyled">
+                    <li>2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.</li>
+                    <li>4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.</li>
                 </ul>
-            </div>
-        </nav>
-        <div class="container border border-dark shadow p-3 mb-5 rounded text-center"
-            style="background-color: rgba(221, 226, 221, 0.9);">
-            <h2 class="display-4 mb-3">Osaamisen arviointi</h2>
-
-            <p class="fs-6">Ammatilliset tutkinnon osat arvioidaan asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten
-                ja arviointikriteerien mukaisesti. Opiskelijan osaaminen arvioidaan tutkinnon osittain. Tutkinnon osan
-                arvosana määräytyy sen mukaan, mille arviointiasteikon tasolle opiskelijan osaaminen kokonaisuutena
-                parhaiten sijoittuu.</p>
-            <p class="fs-6">Yhteisten tutkinnon osien osa-alueet ja yritystoiminnan suunnittelu, työpaikkaohjaajaksi
-                valmentautuminen, yrityksessä toimiminen ja huippuosaajana toimiminen tutkinnon osat arvioidaan
-                asteikolla 1–5 tutkinnon osan ammattitaitovaatimusten, osaamistavoitteiden ja arviointikriteerien
-                mukaisesti. Arvosanat 2 ja 4 määräytyvät seuraavasti:</p>
-            <ul class="list-unstyled">
-                <li>2 = Opiskelijan osaamisen taso ylittää selkeästi 1-tason, mutta ei yllä 3-tasolle.</li>
-
-                <li>4 = Opiskelijan osaamisen taso ylittää selkeästi 3-tason, mutta ei yllä 5-tasolle.</li>
-            </ul>
-        </div>
-    </div>
-    <footer class="bg-dark text-white py-4 mt-auto">
-        <div class="container text-center pt-2 pb-5">
-            <p class="mb-0">© 2024 Responsiiviset sivut Bootstrapin avulla - Jenna Siitonen -</p>
-        </div>
-    </footer>
+            </main>
+            <footer class="bg-dark text-white py-4 mt-auto">
+                <div class="container text-center pt-2 pb-2">
+                    <p class="mb-0">© 2024 Responsiiviset sivut Bootstrapin avulla - Jenna Siitonen -</p>
+                </div>
+            </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
