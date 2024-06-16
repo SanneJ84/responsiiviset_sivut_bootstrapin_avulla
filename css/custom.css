@@ -1,0 +1,18 @@
+/* Määrittele custom-taustavärit bodylle ja headerille */
+.custom-body {
+    background-color: rgba(187, 190, 187, 0.9);
+}
+
+.custom-header {
+    background-color: rgba(221, 226, 221, 0.9);
+}
+
+/* Footerin taustaväri ja tekstin väri */
+.custom-footer {
+    background-color: #343a40; /* Tummanharmaa */
+    color: white;
+}
+
+.custom-main {
+    background-color: rgba(221, 226, 221, 0.9);
+}
